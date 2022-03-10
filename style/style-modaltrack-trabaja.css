@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* banner principal */
+.banner-hero {
+    position: relative;
+}
+.banner-hero-titulo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    left: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    display: inline;
+    background: rgba(17, 17, 17, 0.6);
+}
+.banner-hero-icono-whatssap {
+    position: fixed;
+    right: 45px;
+    top: 519px;
+    z-index: 2;
+}
+
+/* informacion */
+.info {
+    max-width: 1280px;
+    margin: 0 auto; 
+    padding-top: 60px;
+}
+.info-texto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3F3F3F;
+    text-align: center;
+    max-width: 740px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+.info-contenedor {
+    position: relative;
+    padding-bottom: 70px;
+}
+.info-texto-2 {
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    background: rgba(158, 7, 11, 0.8);
+    padding: 55px 50px 55px 43px;
+    max-width: 732px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    right: 0;
+}
+.info-link {
+    color: #ffffff;
+    font-weight: 700;
+}
+

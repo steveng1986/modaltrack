@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+}
+/* banner  */
+.banner-contenedor-principal-home {
+    display: flex;
+    max-width: 1280px;
+    position: relative;
+}
+.banner-titulo-home {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    width: 100%;
+    color: white;
+    background: rgba(17, 17, 17, 0.6);
+    display: inline;
+    line-height: 56px;
+}
+
+.contenedor-buttons-and-title {
+    position: absolute;
+    max-width: 538px;
+    margin: 78px 82px;
+}
+.contenedor-buttons {
+    margin-top: 43px;
+}
+
+.banner-button {
+    width: 204px;
+    height: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;  
+    margin: 0 13px;
+}
+
+.banner-button-white {
+    background-color: #ffffff;
+}
+
+.banner-button-red {
+    background-color: #9E070B;
+    color: white;  
+}
+
+.banner-icono-whatssap{
+    position: fixed;
+    max-width: 50px 50px;
+    margin-top: 542px;  
+    margin-left: 1310px;
+}
+/* end banner */
+
+/* servicios  */
+
+.servicios-contenedor {
+    background-color: #F0F0F0;
+}
+
+.titles-secondary {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;  
+    text-align: center;
+    margin: 0;
+    padding-top: 64px;
+    padding-bottom: 52px;
+}
+
+.servicios-title-red {
+    color: #9E070B;
+}
+
+.servicios-lista {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;  
+    font-family: 'Roboto', sans-serif;
+}
+
+.servicios-items {
+    background-color: #ffffff;
+    margin: 0 26px;
+    text-align: center;
+    width: 256px;
+    max-width: 256px;
+    padding: 40px 14px 14px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+.servicios-items img {
+    height: 70px;
+    width: auto;
+}
+.servicios-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+    font-size: 18px;
+}
+
+.servicios-texto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* end servicios  */
+
+/* servicios  */
+.nosotros-contenedor{
+    background-color: #F0F0F0;
+}
+.nosotros-contenedor-text {
+    max-width: 752px;
+    margin: 0 auto;  
+    color: #3F3F3F;
+}
+.nosotros-texto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400 ; 
+    margin: 0;
+    padding-top: 20px;
+}
+.nosotros-texto-center {
+    text-align: center;
+}
+.nosotros-keyword {
+    font-weight: 700;
+}
+.subtitle-content {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 30px 0 0;
+}
+/* end servicios  */
+
+/* principios  */
+.principios-contenedor-principal {
+    background-color: #F0F0F0;
+    padding-bottom: 60px;
+}
+.contenedor-nosotros {
+    max-width: 752px;
+    margin: 0 auto;  
+    color: #3F3F3F;
+    background-color: #F0F0F0;
+}
+
+.principios-lista {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3F3F3F;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.principios-items {
+    padding-bottom: 10px;
+
+}
+.princicios-icono-flecha {
+    padding-right: 13px;
+}
+/* end principios  */
+
+/* canales */
+.canales-contenedor-principal {
+    padding-bottom: 50px;
+}
+.canales-lista-contacto {
+    padding-left: 0;
+}
+.canales-lista-contacto-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #3f3f3f;
+}
+.canales-lista-contacto-icono {
+    padding-right: 12px;
+    width: 24px;
+    height: 24px;
+}
+.canales-siguenos {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3f3f3f;
+}
+.canales-redes-sociales-lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+.canales-redes-sociales-item {
+    margin: 10px;
+    
+}
+.canales-redes-sociales-icono {
+    height: 30px;
+    width: 30px;
+}

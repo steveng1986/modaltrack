@@ -1,0 +1,84 @@
+/* footer */
+.footer {
+    background-image: url("../imagenes/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.footer-contenedor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 60px 0;
+    align-items: center;
+}
+
+.footer-redes-sociales-lista {
+    display: flex;  
+}
+
+.footer-redes-sociales-icono {
+    padding: 0 7px;
+    list-style:none;
+    
+}
+
+.footer-company {
+    text-align: left;
+
+}
+.footer-company-item {
+    list-style:none;
+    padding: 4px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.footer-company-lista {
+    padding: 0 ;
+}
+
+.footer-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0 0 14px 0;
+}
+
+.footer-company-flecha {
+padding-right: 12px;    
+}
+
+.footer-contacto-lista {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; 
+    padding: 0;
+}
+
+.footer-contacto-direccion {
+    margin: 0;
+}
+
+.footer-contacto-item {
+    padding: 7px 0;
+    list-style:none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contacto-imagen {
+    padding-right: 10px;
+}
+
+.footer-copyright {
+    background-color: #111111;
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0;
+
+}

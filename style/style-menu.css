@@ -1,0 +1,24 @@
+/* menu de navegacion */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1210px;
+    padding: 18px 0;
+    background-color: white;
+}
+.menu-lista-items {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    margin: 9px; 
+}
+.menu-lista {
+    display: flex;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+.menu-lista-items-color {
+    color: #9E070B;
+}
